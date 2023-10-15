@@ -3,7 +3,7 @@
         "logoUrl": "images/places/logo-adobe.png",
         "faIcon": "fa fa-house-laptop",
         "locales": {
-            "en": {"name": "Adobe Inc."}
+            "en": {"name": "Avalant Co., Ltd"}
         }
     },
 
@@ -11,7 +11,7 @@
         "logoUrl": "images/places/logo-apple.png",
         "faIcon": "fab fa-apple",
         "locales": {
-            "en": {"name": "Apple Inc."}
+            "en": {"name": "Inter Creative Co., Ltd"}
         }
     },
 
@@ -19,7 +19,7 @@
         "logoUrl": "images/places/logo-coursera.png",
         "faIcon": "fa fa-house-laptop",
         "locales": {
-            "en": {"name": "Coursera"}
+            "en": {"name": "Work from home"}
         }
     },
 
@@ -54,10 +54,8 @@
         "logoUrl": "images/places/logo-paris-university.png",
         "faIcon": "fas fa-university",
         "locales": {
-            "en": {"name": "University of Paris"},
-            "es": {"name": "Universidad de París"},
-            "fr": {"name": "Université de Paris"},
-            "zh": {"name": "巴黎大学"}
+            "en": {"name": "Chonburi"},
+            "th": {"name": "ชลบุรี"}
         }
     },
 
@@ -65,7 +63,8 @@
         "logoUrl": "images/places/logo-udacity.png",
         "faIcon": "fa fa-house-laptop",
         "locales": {
-            "en": {"name": "Udacity"}
+            "en": {"name": "Samutprakarn"},
+            "th": {"name": "สมุทรปราการ"}
         }
     },
 
@@ -73,7 +72,8 @@
         "logoUrl": "images/places/logo-ux-studio.png",
         "faIcon": "fas fa-paint-brush",
         "locales": {
-            "en": {"name": "UX Masters Studio"}
+            "en": {"name": "Burapha University"},
+            "th":{"name": "มหาวิทยาลัยบูรพา"}
         }
     }
 }

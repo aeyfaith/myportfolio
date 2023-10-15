@@ -23,6 +23,11 @@
             "description": "如果您有任何需要，请随时与我联系！",
             "subtitle": "或者...",
             "subtitleDescription": "如果您愿意，您可以通过以下方式与我取得联系:"
+        }, "th": {
+            "title": "<span class='text-primary'>ติดต่อ</span>เรา",
+            "description": "ติดต่อเราได้ตลอดเวลาที่คุณต้องการ!",
+            "subtitle": "หรือ...",
+            "subtitleDescription": "ถ้าคุณต้องการทางเลือกอื่น สามารถติดต่อเราผ่านตัวเลือกต่อไปนี้"
         }
     },
 
@@ -30,7 +35,6 @@
         "@link{profile.contact.address}",
         "@link{profile.contact.phone}",
         "@link{profile.contact.email}",
-        "@link{profile.contact.linkedin}",
         "@link{profile.contact.facebook}",
         "@link{profile.contact.instagram}"
     ]

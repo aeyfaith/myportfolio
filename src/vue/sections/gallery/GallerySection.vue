@@ -100,9 +100,20 @@ const _onFilterTabSelected = (categoryId) => {
  * @param {Object} project
  * @private
  */
-const _onProjectOpened = (project) => {
+ const _onProjectOpened = (project) => {
+    // selectedProject.value = project
+    // modal.value.display()
+    // window.open('https://google.com')
+    if (project.action == "openlink")
+    window.open(project.url)
+
+    else  if (project.action == "openmodal"){
     selectedProject.value = project
     modal.value.display()
+    } 
+    // else  if (project.action === "openpage"  && project.url)
+    else  if (project.action == "openpage" )
+    router.push(project.url);
 }
 </script>
 
