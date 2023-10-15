@@ -15,6 +15,10 @@
         "zh": {
             "title": "<span class='text-primary'>技能</span> 集",
             "description": "探索我所掌握和发展的多样技能:"
+        },
+        "th": {
+            "title": "<span class='text-primary'>ทักษะ</span> ",
+            "description": "ทักษะหลากหลายที่ได้รับและพัฒนามาอย่างต่อเนื่อง:"
         }
     },
 
@@ -42,18 +46,6 @@
             }
         },
 
-        {
-            "id": "languages",
-            "type": "list",
-            "progress": {"0": "beginner", "20": "rookie", "40": "intermediate", "60": "advanced", "80": "fluent", "100": "native"},
-            "faIcon": "fa fa-language",
-            "locales": {
-                "en": {"title": "Languages"},
-                "es": {"title": "Idiomas"},
-                "fr": {"title": "Langues"},
-                "zh": {"title": "语言"}
-            }
-        },
 
         {
             "id": "extra",
@@ -64,7 +56,8 @@
                 "en": {"title": "Bonus Skills"},
                 "es": {"title": "Habilidades Adicionales"},
                 "fr": {"title": "Plus Habiletés"},
-                "zh": {"title": "附加技能"}
+                "zh": {"title": "附加技能"},
+                "th": {"title": "ความสามารถพิเศษ"}
             }
         }
     ],
@@ -91,6 +84,10 @@
                     "zh": {
                         "title": "设计原则",
                         "description": "运用色彩理论、排版、版面构图和平衡等基本原则，巧妙打造视觉吸引的设计，以吸引观众并有效传达信息。"
+                    },
+                    "th": {
+                        "title": "หลักการออกแบบ",
+                        "description": "มีทักษะในการออกแบบโดยใช้หลักการพื้นฐานของทฤษฎีสี การพิมพ์ การจัดวางองค์ประกอบ และความสมดุลเพื่อดึงดูดผู้ใช้งานและถ่ายทอดข้อความได้อย่างมีประสิทธิภาพ"
                     }
                 }
             },
@@ -115,6 +112,10 @@
                     "zh": {
                         "title": "响应式布局",
                         "description": "擅长为不同设备创建适应性布局，通过无缝调整设计元素和内容以适配不同屏幕尺寸，确保最佳用户体验。"
+                    },
+                    "th": {
+                       
+                        "description": "มีความเชี่ยวชาญในการสร้างเลย์เอาต์ที่ปรับเปลี่ยนได้สำหรับอุปกรณ์ที่หลากหลาย โดยการปรับองค์ประกอบการออกแบบและเนื้อหาให้เข้ากับขนาดหน้าจอที่แตกต่างกันได้อย่างราบรื่น"
                     }
                 }
             },
@@ -138,6 +139,9 @@
                     "zh": {
                         "title": "可用性测试",
                         "description": "通过全面的可用性测试提升用户体验。"
+                    },"th": {
+                        "title": "การทดสอบการใช้งาน",
+                        "description": "ปรับปรุงการทำงานผู้ใช้ผ่านการทดสอบการใช้งานที่ครอบคลุม เพื่อให้มั่นใจถึงฟังก์ชันการทำงานที่เหมาะสมที่สุดและความพึงพอใจของผู้ใช้"
                     }
                 }
             },
@@ -162,6 +166,10 @@
                     "zh": {
                         "title": "线框图设计",
                         "description": "熟练制作详细的线框图，以便可视化和规划用户界面。"
+                    },
+                    "th": {
+                       
+                        "description": "มีทักษะในการสร้าง wireframes ที่มีรายละเอียดเพื่อแสดงภาพและวางแผนอินเทอร์เฟซผู้ใช้ วางรากฐานสำหรับการออกแบบที่ใช้งานง่ายได้อย่างมีประสิทธิภาพ"
                     }
                 }
             },
@@ -186,6 +194,10 @@
                     "zh": {
                         "title": "交互设计",
                         "description": "熟练创建直观流畅的交互，以实现用户友好的体验。"
+                    },
+                    "th": {
+                        "title": "การออกแบบปฏิสัมพันธ์",
+                        "description": "มีความเชี่ยวชาญในการสร้างปฏิสัมพันธ์ที่ใช้งานได้ง่ายและราบรื่นเพื่อประสบการณ์ที่เป็นดีต่อผู้ใช้ ผสมผสานสุนทรียศาสตร์และการใช้งานเข้าด้วยกัน"
                     }
                 }
             },
@@ -210,21 +222,25 @@
                     "zh": {
                         "title": "原型设计",
                         "description": "熟练将概念转化为交互式原型，以进行测试和完善。"
+                    },"th": {
+                        "title": "การสร้างต้นแบบทดลองในการใช้งาน",
+                        "description": "มีทักษะในการแปลแนวคิดให้เป็นต้นแบบเชิงโต้ตอบสำหรับการทดสอบและการปรับแต่ง เพื่อให้มั่นใจว่าผลิตภัณฑ์ขั้นสุดท้ายใช้งานได้จริงและน่าดึงดูด"}
+            
                     }
                 }
-            }
         ],
 
         "programming": [
             {
                 "imageIconUrl": null,
                 "faIcon": "fab fa-html5",
-                "value": 95,
+                "value": 80,
                 "locales": {
-                    "en": {"title": "HTML 5", "description": "Experience Time: 5 years"},
-                    "es": {"title": "HTML 5", "description": "Experiencia: 5 años"},
-                    "fr": {"title": "HTML 5", "description": "Expérience : 5 ans"},
-                    "zh": {"title": "HTML 5", "description": "经验时长：5年"}
+                    "en": {"title": "HTML 5", "description": "Experience Time: 4 years"},
+                    "es": {"title": "HTML 5", "description": "Experiencia: 4 años"},
+                    "fr": {"title": "HTML 5", "description": "Expérience : 4 ans"},
+                    "zh": {"title": "HTML 5", "description": "经验时长：4年"},
+                    "th": {"title": "HTML 5", "description": "ประสบการณ์: 4 ปี"}
                 }
             },
 
@@ -233,59 +249,67 @@
                 "faIcon": "fab fa-css3-alt",
                 "value": 90,
                 "locales": {
-                    "en": {"title": "CSS 3", "description": "Experience Time: 3 years"},
-                    "es": {"title": "CSS 3", "description": "Experiencia: 3 años"},
-                    "fr": {"title": "CSS 3", "description": "Expérience : 3 ans"},
-                    "zh": {"title": "CSS 3", "description": "经验时长：3年"}
+                    "en": {"title": "CSS ", "description": "Experience Time: 4 years"},
+                    "es": {"title": "CSS ", "description": "Experiencia: 4años"},
+                    "fr": {"title": "CSS ", "description": "Expérience : 4 ans"},
+                    "zh": {"title": "CSS ", "description": "经验时长：4年"},
+                    "th": {"title": "CSS ", "description": "ประสบการณ์: 4 ปี"}
                 }
             },
 
             {
                 "imageIconUrl": null,
-                "faIcon": "fab fa-sass",
-                "value": 65,
+                "faIcon": "fas fa-ruler",
+                "value": 85,
                 "locales": {
-                    "en": {"title": "Sass/Less", "description": "Experience Time: 2 years"},
-                    "es": {"title": "Sass/Less", "description": "Experiencia: 2 años"},
-                    "fr": {"title": "Sass/Less", "description": "Expérience : 2 ans"},
-                    "zh": {"title": "Sass/Less", "description": "经验时长：2年"}
+                    "en": {"title": "Adobe XD", "description": "Experience Time: 3 years"},
+                    "es": {"title": "Adobe XD", "description": "Experiencia: 3 años"},
+                    "fr": {"title": "Adobe XD", "description": "Expérience : 3 ans"},
+                    "zh": {"title": "Adobe XD", "description": "经验时长：3年"},
+                    "th": {"title": "Adobe XD", "description": "ประสบการณ์: 3 ปี"}
                 }
             },
 
             {
                 "imageIconUrl": null,
                 "faIcon": "fab fa-js-square",
-                "value": 85,
+                "value": 40,
                 "locales": {
-                    "en": {"title": "JavaScript", "description": "Experience Time: 3 years"},
-                    "es": {"title": "JavaScript", "description": "Experiencia: 3 años"},
-                    "fr": {"title": "JavaScript", "description": "Expérience : 3 ans"},
-                    "zh": {"title": "JavaScript", "description": "经验时长：3年"}
+                    "en": {"title": "JavaScript", "description": "Experience Time: 2 years"},
+                    "es": {"title": "JavaScript", "description": "Experiencia: 2 años"},
+                    "fr": {"title": "JavaScript", "description": "Expérience : 2 ans"},
+                    "zh": {"title": "JavaScript", "description": "经验时长：2年"},
+                    "th": {"title": "JavaScript", "description": "ประสบการณ์: 2 ปี"}
                 }
             },
 
             {
-                "imageIconUrl": null,
-                "faIcon": "fab fa-vuejs",
-                "value": 100,
-                "locales": {
-                    "en": {"title": "Vue 3", "description": "Experience Time: 2 years"},
-                    "es": {"title": "Vue 3", "description": "Experiencia: 2 años"},
-                    "fr": {"title": "Vue 3", "description": "Expérience : 2 ans"},
-                    "zh": {"title": "Vue 3", "description": "经验时长：2年"}
-                }
+                
+            "imageIconUrl": null,
+            "faIcon": "fab fa-figma",
+            "value": 70,
+            "locales": {
+                "en": {"title": "Figma", "description": "Experience Time: 8 months"},
+                "es": {"title": "Figma", "description": "Experiencia: 8 months"},
+                "fr": {"title": "Figma", "description": "Expérience : 8 months"},
+                "zh": {"title": "Figma", "description": "经验时长：8月"},
+                "th": {"title": "Figma", "description": "ประสบการณ์: 8 เดือน"}
+            }
+                
             },
 
             {
                 "imageIconUrl": null,
-                "faIcon": "fab fa-react",
-                "value": 75,
-                "locales": {
-                    "en": {"title": "React", "description": "Nanodegree in React development (Udacity)<br>Experience time: 1 year"},
-                    "es": {"title": "React", "description": "Nanodegree de desarrollo React (Udacity)<br>Experiencia: 1 año"},
-                    "fr": {"title": "React", "description": "Nanodegré en développement React (Udacity)<br>Expérience : 1 an"},
-                    "zh": {"title": "React", "description": "React开发纳米学位毕业生（优达学城）<br>经验时长：1年"}
-                }
+            "faIcon": "fab fa-vuejs",
+            "value": 20,
+            "locales": {
+                "en": {"title": "Vue 3", "description": "Experience Time: 4 months"},
+                "es": {"title": "Vue 3", "description": "Experiencia: 4 months"},
+                "fr": {"title": "Vue 3", "description": "Expérience : 4 months"},
+                "zh": {"title": "Vue 3", "description": "经验时长：4月"},
+                "th": {"title": "Vue 3", "description": "ประสบการณ์: 4 เดือน"}
+            }
+                
             }
         ],
 
@@ -348,7 +372,8 @@
                     "en": {"title": "User Interface (UI) Design", "description": "Able to design intuitive and visually appealing user interfaces for seamless user interactions."},
                     "es": {"title": "Diseño de Interfaz de Usuario (UI)", "description": "Capaz de diseñar interfaces de usuario intuitivas y visualmente atractivas para interacciones de usuario fluidas."},
                     "fr": {"title": "Design d'Interface Utilisateur (UI)", "description": "Capable de concevoir des interfaces utilisateur intuitives et visuellement attrayantes pour des interactions utilisateur fluides."},
-                    "zh": {"title": "用户界面（UI）设计", "description": "能够设计直观且视觉吸引力强的用户界面，以实现无缝用户交互。"}
+                    "zh": {"title": "用户界面（UI）设计", "description": "能够设计直观且视觉吸引力强的用户界面，以实现无缝用户交互。"},
+                    "th": {"title": "User Interface (UI) Design", "description": "สามารถออกแบบอินเทอร์เฟซผู้ใช้ที่ใช้งานง่ายและน่าดึงดูด เพื่อการโต้ตอบกับผู้ใช้ที่ราบรื่น"}
                 }
             },
             {
@@ -356,54 +381,38 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Front-End Development", "description": "Able to code in VueJS, React JS, Swift, AngularJS and TypeScript."},
-                    "es": {"title": "Desarrollo Front-End", "description": "Capaz de codificar en VueJS, AngularJS y TypeScript."},
-                    "fr": {"title": "Développement Front-End", "description": "Capable de coder en VueJS, AngularJS et TypeScript."},
-                    "zh": {"title": "前端开发", "description": "能够编写VueJS、AngularJS和TypeScript代码。"}
+                    "en": {"title": "Front-End Development", "description": "Able to code HTML , CSS , JavaScript and VueJS"},
+                    "th": {"title": "Front-End Development", "description": "สามารถเขียนโค้ดใน HTML , CSS , JavaScript และ VueJS"}
                 }
-            },
+            }
+            ,
             {
                 "imageIconUrl": null,
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Information Visualization", "description": "Able to transform complex data into clear visuals."},
-                    "es": {"title": "Visualización de Información", "description": "Capaz de transformar datos complejos en visuales claros."},
-                    "fr": {"title": "Visualisation de l'Information", "description": "Capable de transformer des données complexes en visuels clairs."},
-                    "zh": {"title": "信息可视化", "description": "能够将复杂的数据转化为清晰的可视化图表。"}
+                    "en": {"title": "Multimedia design", "description": "Able to design many types of multimedia such as posters, covers, characters, and other designs. Able to use Procreate program well."},
+                    "th": {"title": "Multimedia design", "description": "สามารถออกแบบมัลติมีเดียได้หลายประเภท เช่น โปสเตอร์ ปก ตัวละคร และการออกแบบอื่นๆ สามารถใช้โปรแกรม Procreate ได้เป็นอย่างดี"}
                 }
-            },
+            }
+            ,
             {
                 "imageIconUrl": null,
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Accessibility and Inclusive Design", "description": "Able to create digital experiences that are accessible to all."},
-                    "es": {"title": "Accesibilidad y Diseño Inclusivo", "description": "Capaz de crear experiencias digitales accesibles para todos."},
-                    "fr": {"title": "Accessibilité et Design Inclusif", "description": "Capable de créer des expériences numériques accessibles à tous."},
-                    "zh": {"title": "可访问性和包容性设计", "description": "能够创建面向所有人的数字体验。"}
+                    "en": {"title": "Sketch design", "description": "Able to draft and design things other than programs in the software. Can also draw sketches quickly Excellent drawing skills"},
+                    "th": {"title": "Sketch design", "description": "สามารถร่างภาพสเก็ตและออกแบบสิ่งต่าง ๆ นอกเหนือจากโปรแกรมในซอฟต์แวร์ได้ ยังสามารถวาดภาพสเก็ตได้อย่างรวดเร็ว มีทักษะการวาดภาพที่ยอดเยี่ยม"}
                 }
-            },
+            }
+            ,
             {
                 "imageIconUrl": null,
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "User-Centric Data Analysis", "description": "Proficient in analyzing data with a focus on the needs and preferences of users, enabling data-driven decisions that align with user expectations."},
-                    "es": {"title": "Análisis de Datos Centrado en el Usuario", "description": "Competente en analizar datos con un enfoque en las necesidades y preferencias de los usuarios, lo que permite tomar decisiones basadas en datos que se alinean con las expectativas de los usuarios."},
-                    "fr": {"title": "Analyse de Données Axée sur l'Utilisateur", "description": "Compétent dans l'analyse de données axée sur les besoins et préférences des utilisateurs, permettant des décisions basées sur les données qui sont en accord avec les attentes des utilisateurs."},
-                    "zh": {"title": "以用户为中心的数据分析", "description": "熟练分析数据，专注于用户的需求和偏好，实现与用户期望相符的基于数据的决策。"}
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": null,
-                "value": null,
-                "locales": {
-                    "en": {"title": "Mobile App User Experience", "description": "Skilled in crafting user-centered experiences within mobile applications, ensuring smooth and intuitive interactions."},
-                    "es": {"title": "Experiencia de Usuario en Aplicaciones Móviles", "description": "Experto en crear experiencias centradas en el usuario en aplicaciones móviles, garantizando interacciones fluidas e intuitivas."},
-                    "fr": {"title": "Expérience Utilisateur d'Applications Mobiles", "description": "Compétent dans la création d'expériences centrées sur l'utilisateur au sein des applications mobiles, garantissant des interactions fluides et intuitives."},
-                    "zh": {"title": "移动应用用户体验", "description": "擅长在移动应用中打造以用户为中心的体验，确保流畅而直观的交互。"}
+                    "en": {"title": "3D design", "description": "Have basic 3D design skills and basic game design skills."},
+                    "th": {"title": "3D design", "description": "มีทักษะการออกแบบ 3D ขั้นพื้นฐานและทักษะการออกแบบเกมขั้นพื้นฐาน"}
                 }
             }
         ]
