@@ -74,7 +74,7 @@
         {
             "id": "experience_item_4",
             "place": "@link{places.coursera}",
-            "period": ["2023/03", "2023/12"],
+            "period": ["2024/01", "now"],
             "locales": {
                 "en": {
                     "title": "Web design",
