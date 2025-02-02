@@ -74,7 +74,7 @@
         {
             "id": "experience_item_4",
             "place": "@link{places.coursera}",
-            "period": ["2023/03", "now"],
+            "period": ["2023/03", "2023/12"],
             "locales": {
                 "en": {
                     "title": "Freelance & Graphic Designer",
