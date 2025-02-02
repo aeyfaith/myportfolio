@@ -25,9 +25,9 @@
 
     "coursera2": {
         "logoUrl": "images/places/logo-coursera.png",
-        "faIcon": "Quality Express Co., Ltd",
+        "faIcon": "fa fa-house-laptop",
         "locales": {
-            "en": {"name": "Work from home"}
+            "en": {"name": "Quality Express Co., Ltd"}
         }
     },
     
