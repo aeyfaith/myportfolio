@@ -23,7 +23,7 @@
         }
     },
     "coursera2": {
-        "logoUrl": "images/places/logo-coursera2.png",
+        "logoUrl": "images/places/logo-coursera.png",
         "faIcon": "fa fa-house-laptop",
         "locales": {
             "en": {"name": "Quality Express Co., Ltd"}
