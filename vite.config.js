@@ -5,4 +5,5 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   base: '/myportfolio/',
   plugins: [vue()],
+  build: {outDir:"docs"}
 })
