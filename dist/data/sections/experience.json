@@ -89,7 +89,7 @@
 
         {
             "id": "experience_item_5",
-            "place": "@link{places.coursera/}",
+            "place": "@link{places.coursera2}",
             "period": ["2024/01", "now"],
             "locales": {
                 "en": {
