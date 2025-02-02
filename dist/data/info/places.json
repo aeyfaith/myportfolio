@@ -23,6 +23,15 @@
         }
     },
 
+    "coursera2": {
+        "logoUrl": "images/places/logo-coursera.png",
+        "faIcon": "Quality Express Co., Ltd",
+        "locales": {
+            "en": {"name": "Work from home"}
+        }
+    },
+    
+
     "forbes": {
         "logoUrl": null,
         "faIcon": "fa-solid fa-newspaper",
