@@ -77,22 +77,6 @@
             "period": ["2023/03", "2023/12"],
             "locales": {
                 "en": {
-                    "title": "Freelance & Graphic Designer",
-                    "description": "Collaborated with clients to develop brand identities and visual guidelines and study additional knowledge."
-                },
-                "th": {
-                    
-                    "description": "ร่วมมือกับลูกค้าในการพัฒนารูปลักษณ์ของแบรนด์และแนวทางด้านภาพ และศึกษาความรู้เพิ่มเติม"
-                }
-            }
-        },
-
-        {
-            "id": "experience_item_5",
-            "place": "@link{places.coursera2}",
-            "period": ["2024/01", "now"],
-            "locales": {
-                "en": {
                     "title": "Web design",
                     "description": "Design websites and media on the website."
                 },
