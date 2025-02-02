@@ -14,7 +14,6 @@
             "en": {"name": "Inter Creative Co., Ltd"}
         }
     },
-
     "coursera": {
         "logoUrl": "images/places/logo-coursera.png",
         "faIcon": "fa fa-house-laptop",
@@ -22,7 +21,6 @@
             "en": {"name": "Quality Express Co., Ltd"}
         }
     },
-
     "forbes": {
         "logoUrl": null,
         "faIcon": "fa-solid fa-newspaper",
