@@ -14,15 +14,7 @@
             "en": {"name": "Inter Creative Co., Ltd"}
         }
     },
-
     "coursera": {
-        "logoUrl": "images/places/logo-coursera.png",
-        "faIcon": "fa fa-house-laptop",
-        "locales": {
-            "en": {"name": "Work from home"}
-        }
-    },
-    "coursera2": {
         "logoUrl": "images/places/logo-coursera.png",
         "faIcon": "fa fa-house-laptop",
         "locales": {
